@@ -1,0 +1,18 @@
+# Ignore Model Weights (Too big!)
+checkpoints/
+*.pth
+*.pt
+*.bin
+
+# Ignore Output Folders
+output_images/
+results/
+
+# Ignore Python System Files
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Ignore your test images if you want
+input_images/
